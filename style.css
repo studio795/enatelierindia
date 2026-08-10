@@ -507,3 +507,22 @@ h2{
     }
 
 }
+/* FINAL MOBILE HEADER ADJUSTMENT */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 8px 20px 10px !important;
+    }
+
+    .logo img {
+        height: 68px !important;
+        width: auto !important;
+    }
+
+    .nav-links {
+        margin-top: 4px !important;
+        gap: 18px !important;
+    }
+
+}
