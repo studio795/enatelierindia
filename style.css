@@ -488,3 +488,22 @@ h2{
     }
 
 }
+/* MOBILE HEADER — REDUCE WHITE SPACE */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 15px 20px 12px !important;
+    }
+
+    .logo img {
+        height: 68px !important;
+        width: auto;
+    }
+
+    .nav-links {
+        margin-top: 8px !important;
+        gap: 18px;
+    }
+
+}
