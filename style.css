@@ -512,3 +512,11 @@ h2{
         font-size: 60px;
     }
 }
+/* Desktop hero title */
+@media (min-width: 1024px) {
+    .hero h1 {
+        font-size: 54px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+}
