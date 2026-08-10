@@ -530,16 +530,3 @@ h2{
     }
 
 }
-/* MOBILE HERO — MOVE CONTENT UP */
-
-@media (max-width: 768px) {
-
-    .hero {
-        align-items: center;
-    }
-
-    .hero-content {
-        transform: translateY(-90px);
-    }
-
-}
