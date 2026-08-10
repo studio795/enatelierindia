@@ -507,26 +507,3 @@ h2{
     }
 
 }
-/* FINAL MOBILE HEADER */
-
-@media (max-width: 768px) {
-
-    .navbar {
-        height: 150px !important;
-        padding: 5px 20px 8px !important;
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
-    }
-
-    .logo img {
-        height: 65px !important;
-        width: auto !important;
-    }
-
-    .nav-links {
-        margin-top: 3px !important;
-        gap: 18px !important;
-    }
-
-}
