@@ -316,3 +316,35 @@ h2{
     font-size:14px;
     color:#888;
 }
+/* MOBILE FIX */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        flex-direction: column !important;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about {
+        grid-template-columns: 1fr !important;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .contact-details {
+        grid-template-columns: 1fr !important;
+    }
+}
