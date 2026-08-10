@@ -507,3 +507,8 @@ h2{
     }
 
 }
+@media (min-width: 769px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+}
